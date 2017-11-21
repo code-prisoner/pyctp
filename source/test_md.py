@@ -49,8 +49,6 @@ CDLL("./v6.3.6/libthosttraderapi.so", mode=RTLD_GLOBAL)
 CThostFtdcMdSpi._dll = cdll.LoadLibrary('./libpyctpmdapi.so')
 CThostFtdcMdApi._dll = cdll.LoadLibrary('./libpyctpmdapi.so')
 
-#md_addr = b'tcp://180.168.102.193:41213'
-#md_addr = b'tcp://101.231.96.18:51213'
 md_addr = b'tcp://180.168.102.194:41213'
 
 
